@@ -1,0 +1,6 @@
+name=(input("eneter a string"))
+simple=(input("enter another string"))
+print(name)
+print(simple)
+print(name.lower())
+print(simple.upper())
