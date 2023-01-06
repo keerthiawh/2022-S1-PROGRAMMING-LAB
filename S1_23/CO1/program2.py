@@ -1,0 +1,10 @@
+clr=['red','white','green','blue']
+print(clr)
+print(clr[0])
+print(clr[-1])
+clr.append('purple')
+print(clr)
+clr.insert(3,'yellow')
+print(clr)
+clr[-1]='orange'
+print(clr)
