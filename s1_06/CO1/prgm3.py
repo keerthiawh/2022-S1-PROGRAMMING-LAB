@@ -1,0 +1,7 @@
+set=(1,5,8,15,75,2)
+print("length=",len(set))
+print("minimum",min(set))
+print("maximum",max(set))
+print("sum",sum(set))
+sort=sorted(set)
+print("sorted set",sort)
