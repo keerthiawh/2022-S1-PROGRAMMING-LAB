@@ -1,0 +1,10 @@
+set_num={34,33,22,11,55}
+print(set_num)
+print("length of the set=")
+print(len(set_num))
+print("maximum=")
+print(max(set_num))
+print("minimum=")
+print(min(set_num))
+print("sorted=")
+print(sorted(set_num))

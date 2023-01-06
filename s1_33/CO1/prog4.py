@@ -1,0 +1,8 @@
+tup_mark=(78,67,90,76,23)
+print(tup_mark)
+print("length")
+print(len(tup_mark))
+print("min number is")
+print(min(tup_mark))
+print("max number is")
+print(max(tup_mark))
