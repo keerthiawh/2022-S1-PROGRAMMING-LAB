@@ -1,0 +1,7 @@
+print("HELLO WORLD")
+name=input("enter your name")
+print(name)
+#print(type(name))
+age=int(input("Enter Your Age"))
+print(age)
+#print(type(age))        
