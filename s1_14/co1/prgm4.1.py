@@ -1,0 +1,10 @@
+color=['green','yellow','blue','white']
+print(color)
+print(color[0])
+print(color[-1])
+color.append("pink")
+print(color)
+color.insert(4,"grey")
+print(color)
+color[5]="brown"
+print(color)
