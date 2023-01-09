@@ -1,0 +1,5 @@
+tup_name=(20,40,60,80,100)
+print(tup_name)
+print(len(tup_name))
+print(max(tup_name))
+print(min(tup_name))
