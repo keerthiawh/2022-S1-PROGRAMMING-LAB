@@ -1,0 +1,5 @@
+tup_mark=(25,45,65,15,70,30)
+print(tup_mark)
+print("length of tuple= ",len(tup_mark))
+print("max of tuple=",max(tup_mark))
+print("min of tuple=",min(tup_mark))

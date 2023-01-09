@@ -1,0 +1,7 @@
+set1=(6,2,9,4,5)
+print(set1)
+print(len(set1))
+print(min(set1))
+print(max(set1))
+print(sum(set1))
+print(sorted(set1))
