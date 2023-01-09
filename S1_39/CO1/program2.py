@@ -1,0 +1,7 @@
+n=input('enter your name')
+c=input('college name')
+a=int(input('enter age'))
+print(n)
+print(c)
+print(a)
+print(type(c))
