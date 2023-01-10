@@ -1,0 +1,11 @@
+dct_stud={'name':'narshina','age':21,'sem':1,'rollno':27}
+print(dct_stud)
+print(len(dct_stud))
+x=dct_stud.keys()
+print(x)
+y=dct_stud.values()
+print(y)
+z=dct_stud.items()
+print(z)
+dct_stud.update({'gender':'female'})
+print(dct_stud)
