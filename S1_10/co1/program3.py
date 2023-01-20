@@ -1,0 +1,7 @@
+numbers=input("enter a list of numbers seperated by comas")
+print(numbers)
+list_num=numbers.split(',')
+print(list_num)
+print(len(list_num))
+print(max(list_num))
+print(min(list_num))

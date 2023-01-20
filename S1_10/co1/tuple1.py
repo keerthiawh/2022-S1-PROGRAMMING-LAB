@@ -1,0 +1,7 @@
+tup_mark=(20,10,30,22,15,25)
+print(tup_mark)
+len(tup_mark)
+print(len(tup_mark))
+min(tup_mark)
+print(min(tup_mark))
+print(max(tup_mark))

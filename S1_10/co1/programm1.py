@@ -1,0 +1,7 @@
+print("hello world")
+name=input("enter student name")
+age=int(input("age"))
+address=input("enter student address")
+print(type(name))
+print(type(age))
+print(type(address))

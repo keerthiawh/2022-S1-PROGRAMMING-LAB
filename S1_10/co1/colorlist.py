@@ -1,0 +1,7 @@
+color_list_1=set(["white","black","red"])
+color_list_2=set(["red","green"])
+print("original set elements:")
+print("color_list 1 :",color_list_1)
+print("color_list 2 :",color_list_2)
+print("\n list of colors which is not present in color list2:")
+print(color_list_1.difference(color_list_2))
