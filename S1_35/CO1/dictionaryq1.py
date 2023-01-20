@@ -1,0 +1,9 @@
+dct_stud={"name":"sarang","age":23,"sem":1,"no":35}
+print(dct_stud)
+print(len(dct_stud))
+print(dct_stud.keys())
+print(dct_stud.values())
+print(dct_stud.items())
+dct_stud.update({"gender":"male"})
+print(dct_stud)
+print(dct_stud.get("name"))
