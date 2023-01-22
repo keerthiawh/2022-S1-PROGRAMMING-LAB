@@ -1,0 +1,10 @@
+name=input('Enter your name :')
+age=int(input('Enter your age :'))
+rollno=int(input("Enter your roll number"))
+print(name)
+print(age)
+print(rollno)
+
+print(type(name))
+print(type(age))
+print(type(rollno))

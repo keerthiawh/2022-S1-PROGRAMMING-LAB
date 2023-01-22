@@ -1,0 +1,4 @@
+name="Python"
+print(len(name))
+print(name[3])
+print(name.upper()

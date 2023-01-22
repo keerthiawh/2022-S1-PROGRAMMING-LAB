@@ -1,0 +1,7 @@
+vision=input("Enter your string : ")
+print(len(vision))
+print(vision[3])
+print(vision.upper())
+print(vision[0])
+print(vision[-1])
+print(vision[5:10])

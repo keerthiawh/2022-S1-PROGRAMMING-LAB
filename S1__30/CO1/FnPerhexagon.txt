@@ -1,0 +1,5 @@
+def per():
+    side=int(input("Enter one side of the hexagon: "))
+    perimeter=side*6
+    print("The perimeter is: ",perimeter)
+per()

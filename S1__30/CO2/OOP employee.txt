@@ -1,0 +1,10 @@
+class employee :
+    sal
+    grade = y,dept = z
+    def display(self,sal,grade,dept):
+        print(self.sal)
+f = employee()
+x = int(input("Enter the salary: "))
+y = input("Enter the grade : ")
+z = input("Enter the departmenbt: ")
+f.display(x,y,z)

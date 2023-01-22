@@ -1,0 +1,13 @@
+n=int(input("Enter how many number do you want to input : "))
+arr=[]
+for i in range(0,n,1):
+    elm=int(input("Enter the number: "))
+    arr.append(elm)
+print("The inputed numbers are");
+for i in range(0,n,1):
+    print(arr[i])
+
+print("Values more thn 100")
+for i in range(0,n,1):
+    if(arr[i]>100):
+        print(arr[i])

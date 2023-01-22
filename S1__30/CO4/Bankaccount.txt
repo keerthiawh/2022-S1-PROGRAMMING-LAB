@@ -1,0 +1,49 @@
+class banking:
+    def depo(self,m):
+        deposit=int(input("Enter the amount to deposit: "))
+        m=m+deposit
+        return(m)
+    def witdr(self,m):
+        withdraw=int(input("Enter the number you want to withdraw:  "))
+        m=m-withdraw
+        return(m)
+print("-------Menu----------")
+useracc=int(input("Enter your account number: "))
+if(useracc==101):
+    m1=1000
+    op=int(input("Enter the operation(1.Deposit 2.Withdraw): "))
+    user1_name="Manu"
+    if(op==1):
+        user1=banking()
+        m1=user1.depo(m1)
+        print("Name: ",user1_name)
+        print("Account number: ",useracc)
+        print("Your balance is = ",m1)
+    elif(op==2):
+        user1=banking()
+        m1=user1.witdr(m1)
+        print("Name: ",user1_name)
+        print("Account number: ",useracc)
+        print("Your balance is = ",m1)
+    else:
+        print("")
+elif(useracc==102):
+    m2=1000
+    op=int(input("Enter the operation(1.Deposit 2.Withdraw): "))
+    user2_name="Lakshmi"
+    if(op==1):
+        user2=banking()
+        m2=user2.depo(m2)
+        print("Name: ",user2_name)
+        print("Account number: ",useracc)
+        print("Your balance is = ",m2)
+    elif(op==2):
+        user2=banking()
+        m2=user2.witdr(m2)
+        print("Name: ",user2_name)
+        print("Account number: ",useracc)
+        print("Your balance is = ",m2)
+    else:
+        print("")
+else:
+    print("no account founded")

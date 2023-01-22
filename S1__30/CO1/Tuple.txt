@@ -1,0 +1,7 @@
+tup_mark=(15,20,25.4)
+print("Highest mark")
+print(max(tup_mark))
+print("Lowest mark")
+print(min(tup_mark))
+print("Length of the tuple is")
+print(len(tup_mark))

@@ -1,0 +1,4 @@
+dct={1,2,3,4}
+k=len(dct)
+for i in range(k):
+    print(dct[i],end="")

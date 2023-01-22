@@ -1,0 +1,7 @@
+def  pyr(lm):
+    for i in range(1,lm+1,1):
+        for j in range(1,i+1,1):
+            print(j*i,end="")
+        print("\n",end="")
+n=int(input("Enter the limit: "))
+pyr(n)
