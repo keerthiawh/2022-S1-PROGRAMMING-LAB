@@ -1,0 +1,10 @@
+stud={"name":"Niranjan","age":21,"sem":1,"roll no":28}
+print(stud)
+print(len(stud))
+print(stud.keys())
+print(stud.values())
+print(stud.items())
+stud.update({"gender":"male"})
+print(stud)
+stud.pop("sem")
+print(stud)
